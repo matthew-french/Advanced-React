@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{"38br":function(n,e,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/sell",function(){return t("4UCa")}])},"4UCa":function(n,e,t){"use strict";t.r(e);var u=t("q1tI"),i=t.n(u),o=t("YFqc"),r=t.n(o),a=i.a.createElement;e.default=function(n){return a("div",null,a(r.a,{href:"index"},a("a",null,"Home")))}}},[["38br",1,0]]]);

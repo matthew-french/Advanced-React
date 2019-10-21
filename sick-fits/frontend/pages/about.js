@@ -6,14 +6,17 @@ import MuiLink from '@material-ui/core/Link';
 import Button from '@material-ui/core/Button';
 import ProTip from '../src/ProTip';
 import Link from '../src/Link';
+// import DropzoneAreaExample from '../src/DropzoneAreaExample';
 
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
+      {/* <DropzoneAreaExample /> */}
       {'Copyright © '}
       <MuiLink color="inherit" href="https://material-ui.com/">
         Your Website
-      </MuiLink>{' '}
+      </MuiLink>
+      {' '}
       {new Date().getFullYear()}
       {'.'}
     </Typography>
@@ -30,6 +33,15 @@ export default function About() {
         <Button variant="contained" color="primary" component={Link} naked href="/">
           Go to the main page
         </Button>
+        <Typography variant="body2" color="textSecondary" align="center">
+          <MuiLink href="about" color="secondary">
+            Go to the about page
+                    </MuiLink>
+
+          <MuiLink href="upload" color="secondary">
+            Go to the upload page
+                    </MuiLink>
+        </Typography>
         <ProTip />
         <Copyright />
       </Box>
